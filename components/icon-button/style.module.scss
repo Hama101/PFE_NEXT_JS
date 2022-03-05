@@ -1,0 +1,18 @@
+.iconButton {
+  width: 48px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(var(--c-primary));
+  position: relative;
+}
+
+.focused:focus {
+  box-shadow: 0 0 0 4px rgba(var(--c-outline), 0.5);
+}
+.hoverable:hover {
+  background-color: rgb(var(--c-m));
+}

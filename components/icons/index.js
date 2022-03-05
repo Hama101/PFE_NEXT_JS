@@ -1,0 +1,9 @@
+export { default as MainLogo } from 'components/icons/MainLogo';
+export { default as Down } from 'components/icons/Down';
+export { default as Message } from 'components/icons/Message';
+export { default as Info } from 'components/icons/Info';
+export { default as Notification } from 'components/icons/Notification';
+export { default as NewTabIcon } from 'components/icons/NewTab';
+export { default as PlusIcon } from 'components/icons/Plus';
+export { default as ShareIcon } from 'components/icons/Share';
+export { default as TreeDotIcon } from 'components/icons/TreeDot';

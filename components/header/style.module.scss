@@ -1,0 +1,72 @@
+.header {
+  height: 80px;
+  background: rgb(var(--c-primary));
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 10px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  .navigationContainer,
+  .profileButtonsContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .profileButtonsContainer {
+    button {
+      color: rgb(var(--c-118));
+    }
+    .miniButton {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.notificationBtn {
+  z-index: 30;
+}
+.messagesBtn {
+  z-index: 30;
+}
+.accountsOptionBtn {
+  z-index: 30;
+}
+.hideCloseArea {
+  background-color: red;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 15;
+}
+.notification {
+  width: 25%;
+  height: auto;
+  margin-top: 60px;
+  padding: 21px;
+  right: 0;
+  position: absolute;
+}
+.messages {
+  width: 25%;
+  height: auto;
+  margin-top: 60px;
+  padding: 21px;
+  right: 0;
+  position: absolute;
+}
+.accountsOption {
+  width: 25%;
+  height: auto;
+  margin-top: 60px;
+  padding: 21px;
+  right: 0;
+  position: absolute;
+}

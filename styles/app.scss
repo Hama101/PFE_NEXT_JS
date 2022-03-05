@@ -1,0 +1,27 @@
+@import "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    "\30D2\30E9\30AE\30CE\89D2\30B4  Pro W3", Hiragino Kaku Gothic Pro,
+    "\30E1\30A4\30EA\30AA", Meiryo, "\FF2D\FF33  \FF30\30B4\30B7\30C3\30AF",
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.container {
+  max-width: 1245px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
